@@ -1,0 +1,125 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #444;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        ol {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .screenshots img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .instructions {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-left: 5px solid #5cb85c;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <p>
+            Welcome to the <strong>Weather App</strong>. This Python-based application fetches real-time weather details for any city using the OpenWeatherMap API.
+        </p>
+
+        <h2>How to Use the Application</h2>
+        <div class="instructions">
+            <ol>
+                <li>Clone the repository:
+                    <pre><code>git clone https://github.com/RachitTyagi17/Weather_App.git</code></pre>
+                </li>
+                <li>Navigate to the project directory:
+                    <pre><code>cd Weather_App</code></pre>
+                </li>
+                <li>Install the required dependencies:
+                    <pre><code>pip install requests</code></pre>
+                </li>
+                <li>Replace `YOUR_API_KEY` in `weather_app.py` with your OpenWeatherMap API key.</li>
+                <li>Run the application:
+                    <pre><code>python weather_app.py</code></pre>
+                </li>
+            </ol>
+        </div>
+
+        <h2>Screenshots</h2>
+        <div class="screenshots">
+            <img src="assets/Screenshot_1.png" alt="Weather App Screenshot 1">
+            <img src="assets/Screenshot_2.png" alt="Weather App Screenshot 2">
+            <img src="assets/Screenshot_3.png" alt="Weather App Screenshot 3">
+            <img src="assets/Screenshot_4.png" alt="Weather App Screenshot 4">
+        </div>
+
+        <h2>Project Repository</h2>
+        <p>
+            The source code for this project is available on GitHub. Click the link below to view the repository:
+            <a href="https://github.com/RachitTyagi17/Weather_App.git" target="_blank">Weather App Repository</a>
+        </p>
+    </div>
+
+    <footer>
+        &copy; 2024 Rachit Tyagi. All rights reserved.
+    </footer>
+</body>
+</html>
